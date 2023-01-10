@@ -15,7 +15,7 @@
 
 .city{
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1;
     margin: 0;
     letter-spacing: 1px;
@@ -30,7 +30,7 @@
 }
 
 .weather-icon{
-    width: 250px;
+    width: 200px;
 
 }
 

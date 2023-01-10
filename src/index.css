@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(/public/images/night-bg.jpg);
+  background-image: url(/public/images/day-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
