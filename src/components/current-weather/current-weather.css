@@ -1,9 +1,7 @@
 .weather{
-    width: 300px;
-    border-radius: 6px;
-    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    width: 700px;
     color: #fff;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0);
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
 }
@@ -17,7 +15,7 @@
 
 .city{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 40px;
     line-height: 1;
     margin: 0;
     letter-spacing: 1px;
@@ -25,18 +23,20 @@
 
 .weather-description{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 1;
     margin: 0;
+    padding-top: 10px;
 }
 
 .weather-icon{
-    width: 100px;
+    width: 250px;
+
 }
 
 .temperature{
     font-weight: 600;
-    font-size: 70px;
+    font-size: 100px;
     width: auto;
     letter-spacing: -5px;
     margin: 10px 0;
@@ -44,7 +44,7 @@
 
 .details{
     width: 100%;
-    padding-left: 20px;
+    padding-left: 150px;
 }
 
 .parameter-row{
@@ -53,13 +53,13 @@
 }
 
 .parameter-label{
-    text-align: left;
-    font-weight: 400;
-    font-size: 12px;
+    text-align: center;
+    font-weight: 575;
+    font-size: 20px;
 }
 
 .parameter-value{
     text-align: right;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 20px;
 }
