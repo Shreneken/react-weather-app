@@ -5,6 +5,7 @@ import { WEATHER_API_KEY } from "./api";
 import { WEATHER_API_URL } from "./api";
 import { useState } from "react";
 import Forecast from "./components/forecast/forecast";
+import setBackground from "./background";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
@@ -34,6 +35,9 @@ function App() {
 
   console.log(currentWeather);
   console.log(forecast);
+
+  setBackground();
+  console.log(document.body.style.backgroundImage);
 
   return (
     <div className="container">
